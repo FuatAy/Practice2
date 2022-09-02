@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: "Trirong", serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+.menu{
+    background-color:rgb(243, 243, 26);
+    color: crimson;
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid crimson;
+}
+.font {
+    float: left;
+    letter-spacing: 2px;
+    border-bottom: 1px solid crimson;
+    color: red;
+}
+.icon {
+    float: right;
+    padding: 3px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.container-img {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
